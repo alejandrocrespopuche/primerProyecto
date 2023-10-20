@@ -19,10 +19,11 @@
         android:text="@string/nombre"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textStyle="bold"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/texto1"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:flow_verticalBias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -31,6 +32,7 @@
         android:id="@+id/texto1"
         android:layout_width="300dp"
         android:layout_height="48dp"
+        android:layout_marginBottom="120dp"
         android:hint="@string/espacio"
         android:maxLines="1"
         android:singleLine="true"
@@ -38,19 +40,18 @@
         app:layout_constraintBottom_toTopOf="@+id/boton1"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.52" />
+        app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/boton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="132dp"
+        android:layout_marginBottom="108dp"
         android:background="@android:color/background_light"
         android:text="Pulsame"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
+        app:flow_verticalBias="0.5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
