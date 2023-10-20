@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">primerProyecto</string>
+    <string name="escribe_tu_nombre" />
+    <string name="nombre">ESCRIBE TU NOMBRE</string>
+    <string name="volver">Volver</string>
+    <string name="resultado"></string>
+    <string name="hola">Hola %1$s</string>
+    <string name="espacio" />
+</resources>
